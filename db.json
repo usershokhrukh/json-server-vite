@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "Admin",
+      "avatar": "https://api.dicebear.com"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "role": "User",
+      "avatar": "https://api.dicebear.com"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "role": "Editor",
+      "avatar": "https://api.dicebear.com"
+    },
+    {
+      "id": "4",
+      "name": "Diana Prince",
+      "email": "diasna@example.com",
+      "role": "User",
+      "avatar": "https://api.dicebear.com"
+    },
+    {
+      "id": "5",
+      "name": "Ethan Hunt",
+      "email": "ethan@example.com",
+      "role": "Admin",
+      "avatar": "https://api.dicebear.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "price": 25.99,
+      "category": "Electronics",
+      "stock": 50,
+      "image": "https://picsum.photos/seed/mouse/200"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 15,
+      "image": "https://picsum.photos/seed/kb/200"
+    },
+    {
+      "id": "3",
+      "name": "Leather Journal",
+      "price": 12.5,
+      "category": "Stationery",
+      "stock": 100,
+      "image": "https://picsum.photos/seed/journal/200"
+    },
+    {
+      "id": "4",
+      "name": "Noise Cancelling Headphones",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 8,
+      "image": "https://picsum.photos/seed/phones/200"
+    },
+    {
+      "id": "5",
+      "name": "Ergonomic Chair",
+      "price": 249,
+      "category": "Furniture",
+      "stock": 5,
+      "image": "https://picsum.photos/seed/chair/200"
+    }
+  ],
+  "cards": [
+    {
+      "id": "1",
+      "userId": 1,
+      "cardNumber": "**** 1234",
+      "type": "Visa",
+      "expiry": "12/26",
+      "balance": 1250.5
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "cardNumber": "**** 5678",
+      "type": "MasterCard",
+      "expiry": "05/25",
+      "balance": 450
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "cardNumber": "**** 9012",
+      "type": "Amex",
+      "expiry": "08/27",
+      "balance": 3200.75
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "cardNumber": "**** 3456",
+      "type": "Visa",
+      "expiry": "01/26",
+      "balance": 150.2
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "cardNumber": "**** 7890",
+      "type": "Discover",
+      "expiry": "11/24",
+      "balance": 5600
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
